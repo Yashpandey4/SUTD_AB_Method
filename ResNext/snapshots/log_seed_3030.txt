@@ -1,0 +1,104 @@
+save path : ./snapshots/
+{'alpha': 0.0, 'arch': 'resnext29_16_64', 'batch_size': 64, 'data_path': '../../data/CIFAR-10', 'dataset': 'cifar10', 'decay': 0.0005, 'epochs': 300, 'evaluate': False, 'gammas': [0.1, 0.1], 'job_id': '', 'learning_rate': 0.05, 'manualSeed': 3030, 'momentum': 0.9, 'ngpu': 4, 'print_freq': 200, 'resume': '', 'save_path': './snapshots/', 'schedule': [150, 225], 'start_epoch': 0, 'use_cuda': True, 'workers': 4}
+Random Seed: 3030
+python version : 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+torch  version : 1.1.0
+cudnn  version : 7501
+=> creating model 'resnext29_16_64'
+=> network :
+ CifarResNeXt(
+  (conv_1_3x3): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+  (bn_1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (stage_1): Sequential(
+    (0): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(64, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (stage_2): Sequential(
+    (0): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(256, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(2048, 2048, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(2048, 2048, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(2048, 2048, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (stage_3): Sequential(
+    (0): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(512, 4096, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(4096, 4096, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(4096, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(1024, 4096, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(4096, 4096, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(4096, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): ResNeXtBottleneck(
+      (conv_reduce): Conv2d(1024, 4096, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_reduce): BatchNorm2d(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_conv): Conv2d(4096, 4096, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16, bias=False)
+      (bn): BatchNorm2d(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_expand): Conv2d(4096, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn_expand): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (avgpool): AvgPool2d(kernel_size=8, stride=8, padding=0)
+  (classifier): Linear(in_features=1024, out_features=10, bias=True)
+)

@@ -1,0 +1,57 @@
+2019-07-05 10:11:52.578125: epoch 0, step  0, loss = 2.6400 (84.8 examples/sec; 1.509 sec/batch)
+Train accuracy = 10.15625
+Train top1 error =  0.8984375
+Validation accuracy =  9.60000
+Validation top1 error = 0.9040
+Validation loss =  2.4769309
+----------------------------
+2019-07-05 10:12:23.892564: epoch 1, step  391, loss = 1.2876 (1865.7 examples/sec; 0.069 sec/batch)
+Train accuracy = 53.90625
+Train top1 error =  0.4609375
+Validation accuracy = 58.00000
+Validation top1 error = 0.4200
+Validation loss =  1.1815094
+----------------------------
+2019-07-05 10:12:54.901242: epoch 2, step  782, loss = 1.1023 (1922.8 examples/sec; 0.067 sec/batch)
+Train accuracy = 69.53125
+Train top1 error =  0.3046875
+Validation accuracy = 68.00000
+Validation top1 error = 0.3200
+Validation loss =  0.9683513
+----------------------------
+2019-07-05 10:13:26.115465: epoch 3, step  1173, loss = 0.7952 (1940.4 examples/sec; 0.066 sec/batch)
+Train accuracy = 74.21875
+Train top1 error =  0.2578125
+Validation accuracy = 76.00000
+Validation top1 error = 0.2400
+Validation loss =  0.629656
+----------------------------
+2019-07-05 10:13:57.043097: epoch 4, step  1564, loss = 0.6869 (1926.6 examples/sec; 0.066 sec/batch)
+Train accuracy = 78.90625
+Train top1 error =  0.2109375
+Validation accuracy = 78.00000
+Validation top1 error = 0.2200
+Validation loss =  0.6724864
+----------------------------
+2019-07-05 10:14:28.020249: epoch 5, step  1955, loss = 0.8328 (1905.1 examples/sec; 0.067 sec/batch)
+Train accuracy = 73.43750
+Train top1 error =  0.265625
+Validation accuracy = 82.40000
+Validation top1 error = 0.1760
+Validation loss =  0.5061778
+----------------------------
+2019-07-05 10:14:59.171364: epoch 6, step  2346, loss = 0.6681 (1786.5 examples/sec; 0.072 sec/batch)
+Train accuracy = 79.68750
+Train top1 error =  0.203125
+Validation accuracy = 81.20000
+Validation top1 error = 0.1880
+Validation loss =  0.5745513
+----------------------------
+2019-07-05 10:15:30.042166: epoch 6, step  2737, loss = 0.5249 (1905.7 examples/sec; 0.067 sec/batch)
+Train accuracy = 89.06250
+Train top1 error =  0.109375
+Validation accuracy = 81.20000
+Validation top1 error = 0.1880
+Validation loss =  0.53917795
+----------------------------
+

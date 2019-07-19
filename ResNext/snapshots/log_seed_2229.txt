@@ -1,0 +1,7 @@
+save path : ./snapshots/
+{'alpha': 0.001, 'arch': 'resnext29_16_64', 'batch_size': 64, 'data_path': '../../data/CIFAR-10', 'dataset': 'cifar10', 'decay': 0.0005, 'epochs': 300, 'evaluate': False, 'gammas': [0.1, 0.1], 'job_id': '', 'learning_rate': 0.05, 'manualSeed': 2229, 'momentum': 0.9, 'ngpu': 1, 'print_freq': 200, 'resume': '', 'save_path': './snapshots/', 'schedule': [150, 225], 'start_epoch': 0, 'use_cuda': True, 'workers': 2}
+Random Seed: 2229
+python version : 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+torch  version : 1.1.0
+cudnn  version : 7501
+=> creating model 'resnext29_16_64'

@@ -1,0 +1,964 @@
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Reading images from cifar10_data/cifar-10-batches-py/data_batch_1
+Reading images from cifar10_data/cifar-10-batches-py/data_batch_2
+Reading images from cifar10_data/cifar-10-batches-py/data_batch_3
+Reading images from cifar10_data/cifar-10-batches-py/data_batch_4
+Reading images from cifar10_data/cifar-10-batches-py/data_batch_5
+Shuffling
+Reading images from cifar10_data/cifar-10-batches-py/test_batch
+Shuffling
+Start training...
+----------------------------
+2019-07-08 09:06:15.898411: epoch 0, step  0, loss = 2.5059 (49.3 examples/sec; 2.597 sec/batch)
+Train accuracy = 13.28125
+Validation accuracy =  9.60
+Validation loss =  2.49166
+----------------------------
+2019-07-08 09:06:57.157309: epoch 1, step  391, loss = 1.5590 (2060.1 examples/sec; 0.062 sec/batch)
+Train accuracy = 46.87500
+Validation accuracy = 44.80
+Validation loss =  1.4394401
+----------------------------
+2019-07-08 09:07:36.913156: epoch 2, step  782, loss = 1.2430 (1782.2 examples/sec; 0.072 sec/batch)
+Train accuracy = 60.15625
+Validation accuracy = 59.20
+Validation loss =  1.1577467
+----------------------------
+2019-07-08 09:08:16.422259: epoch 3, step  1173, loss = 1.1580 (1772.9 examples/sec; 0.072 sec/batch)
+Train accuracy = 65.62500
+Validation accuracy = 64.00
+Validation loss =  1.0229553
+----------------------------
+2019-07-08 09:08:56.934289: epoch 4, step  1564, loss = 1.1070 (1941.1 examples/sec; 0.066 sec/batch)
+Train accuracy = 66.40625
+Validation accuracy = 72.80
+Validation loss =  0.80021787
+----------------------------
+2019-07-08 09:09:37.431865: epoch 5, step  1955, loss = 0.9165 (1733.5 examples/sec; 0.074 sec/batch)
+Train accuracy = 72.65625
+Validation accuracy = 76.00
+Validation loss =  0.65286076
+----------------------------
+2019-07-08 09:10:17.277617: epoch 6, step  2346, loss = 0.8400 (2045.0 examples/sec; 0.063 sec/batch)
+Train accuracy = 79.68750
+Validation accuracy = 74.00
+Validation loss =  0.6892514
+----------------------------
+2019-07-08 09:10:56.275712: epoch 6, step  2737, loss = 0.6165 (1989.4 examples/sec; 0.064 sec/batch)
+Train accuracy = 87.50000
+Validation accuracy = 80.00
+Validation loss =  0.5961363
+----------------------------
+2019-07-08 09:11:36.784194: epoch 7, step  3128, loss = 0.8015 (1913.0 examples/sec; 0.067 sec/batch)
+Train accuracy = 75.78125
+Validation accuracy = 82.40
+Validation loss =  0.5982692
+----------------------------
+2019-07-08 09:12:16.053487: epoch 8, step  3519, loss = 0.7127 (2076.7 examples/sec; 0.062 sec/batch)
+Train accuracy = 87.50000
+Validation accuracy = 82.80
+Validation loss =  0.56273496
+----------------------------
+2019-07-08 09:12:55.938037: epoch 9, step  3910, loss = 0.6261 (1735.4 examples/sec; 0.074 sec/batch)
+Train accuracy = 85.93750
+Validation accuracy = 83.20
+Validation loss =  0.49389192
+----------------------------
+2019-07-08 09:13:36.596595: epoch 10, step  4301, loss = 0.4231 (1553.5 examples/sec; 0.082 sec/batch)
+Train accuracy = 93.75000
+Validation accuracy = 84.80
+Validation loss =  0.49502236
+----------------------------
+2019-07-08 09:14:16.479762: epoch 11, step  4692, loss = 0.4852 (1802.7 examples/sec; 0.071 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 82.40
+Validation loss =  0.51969594
+----------------------------
+2019-07-08 09:14:56.013350: epoch 11, step  5083, loss = 0.8004 (2120.2 examples/sec; 0.060 sec/batch)
+Train accuracy = 80.46875
+Validation accuracy = 75.20
+Validation loss =  0.7703477
+----------------------------
+2019-07-08 09:15:35.617248: epoch 12, step  5474, loss = 0.4324 (1923.3 examples/sec; 0.067 sec/batch)
+Train accuracy = 94.53125
+Validation accuracy = 78.40
+Validation loss =  0.7202836
+----------------------------
+2019-07-08 09:16:15.478660: epoch 13, step  5865, loss = 0.6636 (1591.2 examples/sec; 0.080 sec/batch)
+Train accuracy = 89.06250
+Validation accuracy = 81.20
+Validation loss =  0.55221206
+----------------------------
+2019-07-08 09:16:55.070148: epoch 14, step  6256, loss = 0.7253 (1582.8 examples/sec; 0.081 sec/batch)
+Train accuracy = 81.25000
+Validation accuracy = 84.80
+Validation loss =  0.41622093
+----------------------------
+2019-07-08 09:17:35.543692: epoch 15, step  6647, loss = 0.7390 (1918.5 examples/sec; 0.067 sec/batch)
+Train accuracy = 85.93750
+Validation accuracy = 84.80
+Validation loss =  0.5238107
+----------------------------
+2019-07-08 09:18:15.485427: epoch 16, step  7038, loss = 0.6325 (1555.0 examples/sec; 0.082 sec/batch)
+Train accuracy = 87.50000
+Validation accuracy = 85.60
+Validation loss =  0.44602528
+----------------------------
+2019-07-08 09:18:53.970325: epoch 16, step  7429, loss = 0.7097 (1804.0 examples/sec; 0.071 sec/batch)
+Train accuracy = 82.03125
+Validation accuracy = 83.60
+Validation loss =  0.5668454
+----------------------------
+2019-07-08 09:19:32.951331: epoch 17, step  7820, loss = 0.5133 (2136.7 examples/sec; 0.060 sec/batch)
+Train accuracy = 89.84375
+Validation accuracy = 81.20
+Validation loss =  0.5609282
+----------------------------
+2019-07-08 09:20:13.469597: epoch 18, step  8211, loss = 0.5327 (1781.4 examples/sec; 0.072 sec/batch)
+Train accuracy = 92.18750
+Validation accuracy = 82.00
+Validation loss =  0.60744214
+----------------------------
+2019-07-08 09:20:53.011291: epoch 19, step  8602, loss = 0.7066 (1793.6 examples/sec; 0.071 sec/batch)
+Train accuracy = 87.50000
+Validation accuracy = 83.20
+Validation loss =  0.5491345
+----------------------------
+2019-07-08 09:21:32.321438: epoch 20, step  8993, loss = 0.5262 (1553.4 examples/sec; 0.082 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 81.20
+Validation loss =  0.6139323
+----------------------------
+2019-07-08 09:22:12.685337: epoch 21, step  9384, loss = 0.5990 (1967.5 examples/sec; 0.065 sec/batch)
+Train accuracy = 88.28125
+Validation accuracy = 82.00
+Validation loss =  0.64554775
+----------------------------
+2019-07-08 09:22:53.013037: epoch 21, step  9775, loss = 0.7699 (1607.2 examples/sec; 0.080 sec/batch)
+Train accuracy = 85.15625
+Validation accuracy = 86.40
+Validation loss =  0.4259546
+----------------------------
+2019-07-08 09:23:33.241888: epoch 22, step  10166, loss = 0.5937 (2236.6 examples/sec; 0.057 sec/batch)
+Train accuracy = 92.96875
+Validation accuracy = 87.20
+Validation loss =  0.46776578
+----------------------------
+2019-07-08 09:24:13.552965: epoch 23, step  10557, loss = 0.6007 (2127.9 examples/sec; 0.060 sec/batch)
+Train accuracy = 84.37500
+Validation accuracy = 83.60
+Validation loss =  0.59012663
+----------------------------
+2019-07-08 09:24:53.769287: epoch 24, step  10948, loss = 0.6524 (2044.5 examples/sec; 0.063 sec/batch)
+Train accuracy = 86.71875
+Validation accuracy = 83.60
+Validation loss =  0.56296605
+----------------------------
+2019-07-08 09:25:32.313270: epoch 25, step  11339, loss = 0.7817 (1813.3 examples/sec; 0.071 sec/batch)
+Train accuracy = 86.71875
+Validation accuracy = 83.60
+Validation loss =  0.55989766
+----------------------------
+2019-07-08 09:26:12.621101: epoch 26, step  11730, loss = 0.7668 (1947.7 examples/sec; 0.066 sec/batch)
+Train accuracy = 89.06250
+Validation accuracy = 81.60
+Validation loss =  0.5308314
+----------------------------
+2019-07-08 09:26:53.342722: epoch 26, step  12121, loss = 0.6179 (1806.0 examples/sec; 0.071 sec/batch)
+Train accuracy = 89.06250
+Validation accuracy = 85.60
+Validation loss =  0.4778789
+----------------------------
+2019-07-08 09:27:33.805130: epoch 27, step  12512, loss = 0.4806 (1744.9 examples/sec; 0.073 sec/batch)
+Train accuracy = 92.96875
+Validation accuracy = 80.00
+Validation loss =  0.60202813
+----------------------------
+2019-07-08 09:28:12.667521: epoch 28, step  12903, loss = 0.7011 (1685.7 examples/sec; 0.076 sec/batch)
+Train accuracy = 88.28125
+Validation accuracy = 85.60
+Validation loss =  0.5796023
+----------------------------
+2019-07-08 09:28:51.637240: epoch 29, step  13294, loss = 0.6220 (1735.9 examples/sec; 0.074 sec/batch)
+Train accuracy = 89.84375
+Validation accuracy = 80.40
+Validation loss =  0.66970176
+----------------------------
+2019-07-08 09:29:31.593880: epoch 30, step  13685, loss = 0.5728 (1769.6 examples/sec; 0.072 sec/batch)
+Train accuracy = 90.62500
+Validation accuracy = 78.00
+Validation loss =  0.72569215
+----------------------------
+2019-07-08 09:30:11.784793: epoch 31, step  14076, loss = 0.6563 (2136.7 examples/sec; 0.060 sec/batch)
+Train accuracy = 89.84375
+Validation accuracy = 82.80
+Validation loss =  0.58617604
+----------------------------
+2019-07-08 09:30:52.033545: epoch 31, step  14467, loss = 0.4359 (1713.9 examples/sec; 0.075 sec/batch)
+Train accuracy = 95.31250
+Validation accuracy = 84.00
+Validation loss =  0.6102869
+----------------------------
+2019-07-08 09:31:31.684167: epoch 32, step  14858, loss = 0.5019 (1517.0 examples/sec; 0.084 sec/batch)
+Train accuracy = 93.75000
+Validation accuracy = 81.60
+Validation loss =  0.56247014
+----------------------------
+2019-07-08 09:32:10.418667: epoch 33, step  15249, loss = 0.5731 (1758.3 examples/sec; 0.073 sec/batch)
+Train accuracy = 89.84375
+Validation accuracy = 84.40
+Validation loss =  0.6653884
+----------------------------
+2019-07-08 09:32:50.333250: epoch 34, step  15640, loss = 0.5708 (2369.6 examples/sec; 0.054 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 83.20
+Validation loss =  0.71688634
+----------------------------
+2019-07-08 09:33:30.447021: epoch 35, step  16031, loss = 0.4859 (1793.7 examples/sec; 0.071 sec/batch)
+Train accuracy = 89.84375
+Validation accuracy = 84.80
+Validation loss =  0.44637078
+----------------------------
+2019-07-08 09:34:11.044498: epoch 36, step  16422, loss = 0.4999 (1700.2 examples/sec; 0.075 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 86.00
+Validation loss =  0.5254181
+----------------------------
+2019-07-08 09:34:50.386165: epoch 36, step  16813, loss = 0.5176 (1509.8 examples/sec; 0.085 sec/batch)
+Train accuracy = 90.62500
+Validation accuracy = 85.20
+Validation loss =  0.48920453
+----------------------------
+2019-07-08 09:35:30.922855: epoch 37, step  17204, loss = 0.4219 (2443.2 examples/sec; 0.052 sec/batch)
+Train accuracy = 96.87500
+Validation accuracy = 85.60
+Validation loss =  0.48937654
+----------------------------
+2019-07-08 09:36:11.489428: epoch 38, step  17595, loss = 0.7112 (1892.5 examples/sec; 0.068 sec/batch)
+Train accuracy = 85.93750
+Validation accuracy = 82.40
+Validation loss =  0.6227054
+----------------------------
+2019-07-08 09:36:51.340750: epoch 39, step  17986, loss = 0.5751 (1809.4 examples/sec; 0.071 sec/batch)
+Train accuracy = 89.84375
+Validation accuracy = 86.40
+Validation loss =  0.4352848
+----------------------------
+2019-07-08 09:37:31.521370: epoch 40, step  18377, loss = 0.6528 (1894.6 examples/sec; 0.068 sec/batch)
+Train accuracy = 89.84375
+Validation accuracy = 82.80
+Validation loss =  0.6558264
+----------------------------
+2019-07-08 09:38:10.875446: epoch 41, step  18768, loss = 0.5321 (1948.3 examples/sec; 0.066 sec/batch)
+Train accuracy = 92.96875
+Validation accuracy = 81.20
+Validation loss =  0.7455992
+----------------------------
+2019-07-08 09:38:48.521575: epoch 41, step  19159, loss = 0.5010 (2019.9 examples/sec; 0.063 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 86.80
+Validation loss =  0.48120576
+----------------------------
+2019-07-08 09:39:26.086138: epoch 42, step  19550, loss = 0.6116 (1863.8 examples/sec; 0.069 sec/batch)
+Train accuracy = 85.93750
+Validation accuracy = 84.00
+Validation loss =  0.5590922
+----------------------------
+2019-07-08 09:40:05.183279: epoch 43, step  19941, loss = 0.6285 (2028.0 examples/sec; 0.063 sec/batch)
+Train accuracy = 90.62500
+Validation accuracy = 84.40
+Validation loss =  0.61577266
+----------------------------
+2019-07-08 09:40:45.049347: epoch 44, step  20332, loss = 0.5420 (1652.0 examples/sec; 0.077 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 86.80
+Validation loss =  0.46328694
+----------------------------
+2019-07-08 09:41:23.841345: epoch 45, step  20723, loss = 0.4344 (1884.6 examples/sec; 0.068 sec/batch)
+Train accuracy = 96.09375
+Validation accuracy = 86.40
+Validation loss =  0.52223885
+----------------------------
+2019-07-08 09:42:03.589236: epoch 46, step  21114, loss = 0.5219 (2018.0 examples/sec; 0.063 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 88.40
+Validation loss =  0.49520198
+----------------------------
+2019-07-08 09:42:43.114627: epoch 46, step  21505, loss = 0.5431 (2183.5 examples/sec; 0.059 sec/batch)
+Train accuracy = 92.96875
+Validation accuracy = 80.00
+Validation loss =  0.814009
+----------------------------
+2019-07-08 09:43:22.241519: epoch 47, step  21896, loss = 0.5221 (1700.6 examples/sec; 0.075 sec/batch)
+Train accuracy = 92.18750
+Validation accuracy = 85.60
+Validation loss =  0.4284962
+----------------------------
+2019-07-08 09:44:01.511253: epoch 48, step  22287, loss = 0.5633 (1900.9 examples/sec; 0.067 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 83.20
+Validation loss =  0.64963365
+----------------------------
+2019-07-08 09:44:41.845339: epoch 49, step  22678, loss = 0.5773 (1837.6 examples/sec; 0.070 sec/batch)
+Train accuracy = 92.18750
+Validation accuracy = 84.80
+Validation loss =  0.5427003
+----------------------------
+2019-07-08 09:45:22.137298: epoch 50, step  23069, loss = 0.4804 (2465.1 examples/sec; 0.052 sec/batch)
+Train accuracy = 97.65625
+Validation accuracy = 80.80
+Validation loss =  0.72109205
+----------------------------
+2019-07-08 09:46:01.925385: epoch 51, step  23460, loss = 0.4055 (2044.4 examples/sec; 0.063 sec/batch)
+Train accuracy = 96.09375
+Validation accuracy = 84.00
+Validation loss =  0.6362304
+----------------------------
+2019-07-08 09:46:40.737378: epoch 51, step  23851, loss = 0.4891 (2006.0 examples/sec; 0.064 sec/batch)
+Train accuracy = 94.53125
+Validation accuracy = 89.60
+Validation loss =  0.44616333
+----------------------------
+2019-07-08 09:47:20.267925: epoch 52, step  24242, loss = 0.4865 (1529.9 examples/sec; 0.084 sec/batch)
+Train accuracy = 96.87500
+Validation accuracy = 90.80
+Validation loss =  0.35078248
+----------------------------
+2019-07-08 09:48:00.463347: epoch 53, step  24633, loss = 0.3870 (2091.4 examples/sec; 0.061 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 85.20
+Validation loss =  0.48376173
+----------------------------
+2019-07-08 09:48:39.993270: epoch 54, step  25024, loss = 0.4608 (1672.8 examples/sec; 0.077 sec/batch)
+Train accuracy = 95.31250
+Validation accuracy = 85.20
+Validation loss =  0.5381421
+----------------------------
+2019-07-08 09:49:18.701412: epoch 55, step  25415, loss = 0.6236 (1837.9 examples/sec; 0.070 sec/batch)
+Train accuracy = 90.62500
+Validation accuracy = 86.80
+Validation loss =  0.54565465
+----------------------------
+2019-07-08 09:49:57.842031: epoch 56, step  25806, loss = 0.6313 (1705.6 examples/sec; 0.075 sec/batch)
+Train accuracy = 92.18750
+Validation accuracy = 82.40
+Validation loss =  0.7942898
+----------------------------
+2019-07-08 09:50:36.642222: epoch 56, step  26197, loss = 0.4740 (1870.6 examples/sec; 0.068 sec/batch)
+Train accuracy = 92.18750
+Validation accuracy = 86.40
+Validation loss =  0.51876986
+----------------------------
+2019-07-08 09:51:16.647122: epoch 57, step  26588, loss = 0.6568 (1666.9 examples/sec; 0.077 sec/batch)
+Train accuracy = 88.28125
+Validation accuracy = 85.20
+Validation loss =  0.57201064
+----------------------------
+2019-07-08 09:51:56.816483: epoch 58, step  26979, loss = 0.5344 (1803.8 examples/sec; 0.071 sec/batch)
+Train accuracy = 92.96875
+Validation accuracy = 83.60
+Validation loss =  0.59071034
+----------------------------
+2019-07-08 09:52:36.669006: epoch 59, step  27370, loss = 0.5779 (2218.9 examples/sec; 0.058 sec/batch)
+Train accuracy = 94.53125
+Validation accuracy = 86.40
+Validation loss =  0.53613037
+----------------------------
+2019-07-08 09:53:16.494563: epoch 60, step  27761, loss = 0.4292 (2093.5 examples/sec; 0.061 sec/batch)
+Train accuracy = 95.31250
+Validation accuracy = 86.40
+Validation loss =  0.50992876
+----------------------------
+2019-07-08 09:53:56.441325: epoch 61, step  28152, loss = 0.4910 (2299.5 examples/sec; 0.056 sec/batch)
+Train accuracy = 95.31250
+Validation accuracy = 85.20
+Validation loss =  0.6122335
+----------------------------
+2019-07-08 09:54:35.197971: epoch 61, step  28543, loss = 0.7572 (2031.6 examples/sec; 0.063 sec/batch)
+Train accuracy = 85.93750
+Validation accuracy = 86.00
+Validation loss =  0.52114695
+----------------------------
+2019-07-08 09:55:13.818092: epoch 62, step  28934, loss = 0.5066 (1816.9 examples/sec; 0.070 sec/batch)
+Train accuracy = 93.75000
+Validation accuracy = 84.40
+Validation loss =  0.6489162
+----------------------------
+2019-07-08 09:55:53.529362: epoch 63, step  29325, loss = 0.5595 (2346.7 examples/sec; 0.055 sec/batch)
+Train accuracy = 92.18750
+Validation accuracy = 88.00
+Validation loss =  0.42496482
+----------------------------
+2019-07-08 09:56:32.925187: epoch 64, step  29716, loss = 0.5451 (1931.9 examples/sec; 0.066 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 87.60
+Validation loss =  0.461567
+----------------------------
+2019-07-08 09:57:12.681141: epoch 65, step  30107, loss = 0.6418 (1933.2 examples/sec; 0.066 sec/batch)
+Train accuracy = 90.62500
+Validation accuracy = 88.40
+Validation loss =  0.43552396
+----------------------------
+2019-07-08 09:57:51.625846: epoch 66, step  30498, loss = 0.5150 (2287.2 examples/sec; 0.056 sec/batch)
+Train accuracy = 92.96875
+Validation accuracy = 88.40
+Validation loss =  0.43594435
+----------------------------
+2019-07-08 09:58:31.577096: epoch 66, step  30889, loss = 0.6546 (1774.9 examples/sec; 0.072 sec/batch)
+Train accuracy = 85.93750
+Validation accuracy = 86.00
+Validation loss =  0.49887094
+----------------------------
+2019-07-08 09:59:10.432825: epoch 67, step  31280, loss = 0.4919 (1442.2 examples/sec; 0.089 sec/batch)
+Train accuracy = 95.31250
+Validation accuracy = 83.60
+Validation loss =  0.5979902
+----------------------------
+2019-07-08 09:59:50.055312: epoch 68, step  31671, loss = 0.4914 (1964.1 examples/sec; 0.065 sec/batch)
+Train accuracy = 93.75000
+Validation accuracy = 88.80
+Validation loss =  0.46120024
+----------------------------
+2019-07-08 10:00:28.863287: epoch 69, step  32062, loss = 0.4677 (1848.6 examples/sec; 0.069 sec/batch)
+Train accuracy = 94.53125
+Validation accuracy = 86.40
+Validation loss =  0.51539016
+----------------------------
+2019-07-08 10:01:07.724446: epoch 70, step  32453, loss = 0.4827 (1634.8 examples/sec; 0.078 sec/batch)
+Train accuracy = 93.75000
+Validation accuracy = 84.40
+Validation loss =  0.5652362
+----------------------------
+2019-07-08 10:01:46.008296: epoch 71, step  32844, loss = 0.5231 (1668.9 examples/sec; 0.077 sec/batch)
+Train accuracy = 93.75000
+Validation accuracy = 87.20
+Validation loss =  0.3848479
+----------------------------
+2019-07-08 10:02:25.145468: epoch 71, step  33235, loss = 0.5340 (1589.3 examples/sec; 0.081 sec/batch)
+Train accuracy = 92.18750
+Validation accuracy = 81.20
+Validation loss =  0.6069387
+----------------------------
+2019-07-08 10:03:05.437828: epoch 72, step  33626, loss = 0.5730 (1781.2 examples/sec; 0.072 sec/batch)
+Train accuracy = 92.18750
+Validation accuracy = 85.60
+Validation loss =  0.453242
+----------------------------
+2019-07-08 10:03:44.597878: epoch 73, step  34017, loss = 0.6262 (1608.3 examples/sec; 0.080 sec/batch)
+Train accuracy = 89.06250
+Validation accuracy = 82.40
+Validation loss =  0.531324
+----------------------------
+2019-07-08 10:04:23.396706: epoch 74, step  34408, loss = 0.4835 (1484.4 examples/sec; 0.086 sec/batch)
+Train accuracy = 93.75000
+Validation accuracy = 82.40
+Validation loss =  0.6612279
+----------------------------
+2019-07-08 10:05:02.892767: epoch 75, step  34799, loss = 0.5411 (1601.2 examples/sec; 0.080 sec/batch)
+Train accuracy = 92.96875
+Validation accuracy = 86.00
+Validation loss =  0.4633941
+----------------------------
+2019-07-08 10:05:42.660062: epoch 76, step  35190, loss = 0.5274 (1807.6 examples/sec; 0.071 sec/batch)
+Train accuracy = 95.31250
+Validation accuracy = 86.00
+Validation loss =  0.55742884
+----------------------------
+2019-07-08 10:06:22.209481: epoch 76, step  35581, loss = 0.5141 (1541.5 examples/sec; 0.083 sec/batch)
+Train accuracy = 93.75000
+Validation accuracy = 88.00
+Validation loss =  0.6394258
+----------------------------
+2019-07-08 10:07:00.149249: epoch 77, step  35972, loss = 0.4521 (1563.7 examples/sec; 0.082 sec/batch)
+Train accuracy = 94.53125
+Validation accuracy = 84.40
+Validation loss =  0.5502333
+----------------------------
+2019-07-08 10:07:38.690118: epoch 78, step  36363, loss = 0.5218 (1357.8 examples/sec; 0.094 sec/batch)
+Train accuracy = 91.40625
+Validation accuracy = 86.80
+Validation loss =  0.46397364
+----------------------------
+2019-07-08 10:08:17.486119: epoch 79, step  36754, loss = 0.4409 (1288.6 examples/sec; 0.099 sec/batch)
+Train accuracy = 98.43750
+Validation accuracy = 87.60
+Validation loss =  0.3878669
+----------------------------
+2019-07-08 10:08:57.041878: epoch 80, step  37145, loss = 0.5084 (1846.3 examples/sec; 0.069 sec/batch)
+Train accuracy = 95.31250
+Validation accuracy = 86.80
+Validation loss =  0.42094907
+----------------------------
+2019-07-08 10:09:36.562324: epoch 81, step  37536, loss = 0.4557 (1740.0 examples/sec; 0.074 sec/batch)
+Train accuracy = 96.09375
+Validation accuracy = 87.60
+Validation loss =  0.38244772
+----------------------------
+2019-07-08 10:10:15.561448: epoch 81, step  37927, loss = 0.4959 (1783.8 examples/sec; 0.072 sec/batch)
+Train accuracy = 96.09375
+Validation accuracy = 88.40
+Validation loss =  0.45941105
+----------------------------
+2019-07-08 10:10:54.261665: epoch 82, step  38318, loss = 0.4187 (1424.2 examples/sec; 0.090 sec/batch)
+Train accuracy = 96.87500
+Validation accuracy = 87.60
+Validation loss =  0.45703855
+----------------------------
+2019-07-08 10:11:33.063175: epoch 83, step  38709, loss = 0.4569 (1625.0 examples/sec; 0.079 sec/batch)
+Train accuracy = 96.09375
+Validation accuracy = 88.40
+Validation loss =  0.38196415
+----------------------------
+2019-07-08 10:12:12.155672: epoch 84, step  39100, loss = 0.5771 (1700.9 examples/sec; 0.075 sec/batch)
+Train accuracy = 90.62500
+Validation accuracy = 87.60
+Validation loss =  0.42570916
+----------------------------
+2019-07-08 10:12:51.156540: epoch 85, step  39491, loss = 0.4351 (1736.9 examples/sec; 0.074 sec/batch)
+Train accuracy = 95.31250
+Validation accuracy = 83.20
+Validation loss =  0.7559185
+----------------------------
+2019-07-08 10:13:29.289449: epoch 86, step  39882, loss = 0.5655 (1645.3 examples/sec; 0.078 sec/batch)
+Train accuracy = 92.96875
+Validation accuracy = 86.00
+Validation loss =  0.4651867
+----------------------------
+Learning rate decayed to  0.010000000000000002
+2019-07-08 10:14:08.393923: epoch 86, step  40273, loss = 0.4156 (1770.7 examples/sec; 0.072 sec/batch)
+Train accuracy = 97.65625
+Validation accuracy = 88.40
+Validation loss =  0.40868887
+----------------------------
+2019-07-08 10:14:47.675334: epoch 87, step  40664, loss = 0.4023 (1858.0 examples/sec; 0.069 sec/batch)
+Train accuracy = 96.87500
+Validation accuracy = 88.40
+Validation loss =  0.48764786
+----------------------------
+2019-07-08 10:15:25.744975: epoch 88, step  41055, loss = 0.3458 (1705.0 examples/sec; 0.075 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 91.20
+Validation loss =  0.35879177
+----------------------------
+2019-07-08 10:16:04.633525: epoch 89, step  41446, loss = 0.3329 (1687.8 examples/sec; 0.076 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 91.20
+Validation loss =  0.5131105
+----------------------------
+2019-07-08 10:16:43.070500: epoch 90, step  41837, loss = 0.3349 (1544.1 examples/sec; 0.083 sec/batch)
+Train accuracy = 98.43750
+Validation accuracy = 88.40
+Validation loss =  0.52324224
+----------------------------
+2019-07-08 10:17:20.968787: epoch 91, step  42228, loss = 0.4105 (1836.0 examples/sec; 0.070 sec/batch)
+Train accuracy = 96.09375
+Validation accuracy = 88.80
+Validation loss =  0.5855612
+----------------------------
+2019-07-08 10:17:59.501398: epoch 91, step  42619, loss = 0.3324 (1668.9 examples/sec; 0.077 sec/batch)
+Train accuracy = 97.65625
+Validation accuracy = 92.00
+Validation loss =  0.29709217
+----------------------------
+2019-07-08 10:18:36.536501: epoch 92, step  43010, loss = 0.3194 (1669.5 examples/sec; 0.077 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 86.40
+Validation loss =  0.6330771
+----------------------------
+2019-07-08 10:19:13.143164: epoch 93, step  43401, loss = 0.3143 (1700.4 examples/sec; 0.075 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 90.80
+Validation loss =  0.56584364
+----------------------------
+2019-07-08 10:19:51.121612: epoch 94, step  43792, loss = 0.3093 (1777.0 examples/sec; 0.072 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 91.20
+Validation loss =  0.41634488
+----------------------------
+2019-07-08 10:20:30.194865: epoch 95, step  44183, loss = 0.2897 (1736.7 examples/sec; 0.074 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.5939991
+----------------------------
+2019-07-08 10:21:08.633471: epoch 96, step  44574, loss = 0.2773 (2086.7 examples/sec; 0.061 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.4615528
+----------------------------
+2019-07-08 10:21:45.744742: epoch 96, step  44965, loss = 0.2734 (1509.7 examples/sec; 0.085 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.20
+Validation loss =  0.6553499
+----------------------------
+2019-07-08 10:22:23.621519: epoch 97, step  45356, loss = 0.2780 (2022.4 examples/sec; 0.063 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 90.80
+Validation loss =  0.45326906
+----------------------------
+2019-07-08 10:23:01.970846: epoch 98, step  45747, loss = 0.2591 (1871.7 examples/sec; 0.068 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 86.40
+Validation loss =  0.8069868
+----------------------------
+2019-07-08 10:23:38.662564: epoch 99, step  46138, loss = 0.2654 (1967.1 examples/sec; 0.065 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 85.20
+Validation loss =  0.7464098
+----------------------------
+2019-07-08 10:24:16.325251: epoch 100, step  46529, loss = 0.2539 (1893.3 examples/sec; 0.068 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.48264867
+----------------------------
+2019-07-08 10:24:54.916607: epoch 101, step  46920, loss = 0.2685 (2445.5 examples/sec; 0.052 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 90.40
+Validation loss =  0.5601954
+----------------------------
+2019-07-08 10:25:33.617628: epoch 101, step  47311, loss = 0.2570 (1983.3 examples/sec; 0.065 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 89.20
+Validation loss =  0.64502174
+----------------------------
+2019-07-08 10:26:11.882699: epoch 102, step  47702, loss = 0.2462 (1857.4 examples/sec; 0.069 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.40
+Validation loss =  0.69400597
+----------------------------
+2019-07-08 10:26:50.789572: epoch 103, step  48093, loss = 0.2467 (1454.0 examples/sec; 0.088 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.6512013
+----------------------------
+2019-07-08 10:27:29.592211: epoch 104, step  48484, loss = 0.2351 (1975.5 examples/sec; 0.065 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 87.60
+Validation loss =  0.59416246
+----------------------------
+2019-07-08 10:28:08.501498: epoch 105, step  48875, loss = 0.2455 (1895.6 examples/sec; 0.068 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.80
+Validation loss =  0.8500215
+----------------------------
+2019-07-08 10:28:47.197338: epoch 106, step  49266, loss = 0.2381 (2451.0 examples/sec; 0.052 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 92.00
+Validation loss =  0.4293049
+----------------------------
+2019-07-08 10:29:25.252534: epoch 106, step  49657, loss = 0.2301 (1801.7 examples/sec; 0.071 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 92.80
+Validation loss =  0.440141
+----------------------------
+2019-07-08 10:30:04.303268: epoch 107, step  50048, loss = 0.2400 (1725.7 examples/sec; 0.074 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 90.00
+Validation loss =  0.4983376
+----------------------------
+2019-07-08 10:30:39.640338: epoch 108, step  50439, loss = 0.2186 (2145.7 examples/sec; 0.060 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.60
+Validation loss =  0.57465905
+----------------------------
+2019-07-08 10:31:16.761049: epoch 109, step  50830, loss = 0.2364 (1952.8 examples/sec; 0.066 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 88.80
+Validation loss =  0.65124476
+----------------------------
+2019-07-08 10:31:54.588386: epoch 110, step  51221, loss = 0.2165 (1651.2 examples/sec; 0.078 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.80
+Validation loss =  0.7666669
+----------------------------
+2019-07-08 10:32:34.569447: epoch 111, step  51612, loss = 0.2110 (1634.1 examples/sec; 0.078 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 87.20
+Validation loss =  0.9047579
+----------------------------
+2019-07-08 10:33:14.053971: epoch 111, step  52003, loss = 0.2111 (1867.2 examples/sec; 0.069 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.00
+Validation loss =  0.5990956
+----------------------------
+2019-07-08 10:33:52.837631: epoch 112, step  52394, loss = 0.2467 (1655.6 examples/sec; 0.077 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 90.00
+Validation loss =  0.44532925
+----------------------------
+2019-07-08 10:34:31.388862: epoch 113, step  52785, loss = 0.2029 (2111.4 examples/sec; 0.061 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.40
+Validation loss =  0.52475446
+----------------------------
+2019-07-08 10:35:09.153591: epoch 114, step  53176, loss = 0.1993 (1977.2 examples/sec; 0.065 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 87.60
+Validation loss =  0.6833295
+----------------------------
+2019-07-08 10:35:48.050348: epoch 115, step  53567, loss = 0.1968 (2451.4 examples/sec; 0.052 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.37310225
+----------------------------
+2019-07-08 10:36:27.063945: epoch 116, step  53958, loss = 0.2042 (2213.5 examples/sec; 0.058 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 89.20
+Validation loss =  0.67279184
+----------------------------
+2019-07-08 10:37:03.922087: epoch 116, step  54349, loss = 0.1958 (1986.2 examples/sec; 0.064 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 92.00
+Validation loss =  0.50773954
+----------------------------
+2019-07-08 10:37:39.848090: epoch 117, step  54740, loss = 0.2075 (1837.1 examples/sec; 0.070 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 88.80
+Validation loss =  0.7220875
+----------------------------
+2019-07-08 10:38:19.097301: epoch 118, step  55131, loss = 0.1972 (2040.9 examples/sec; 0.063 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 89.60
+Validation loss =  0.4887838
+----------------------------
+2019-07-08 10:38:58.762077: epoch 119, step  55522, loss = 0.1835 (2053.6 examples/sec; 0.062 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 87.20
+Validation loss =  0.6706322
+----------------------------
+2019-07-08 10:39:35.620187: epoch 120, step  55913, loss = 0.1822 (1694.0 examples/sec; 0.076 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.60
+Validation loss =  0.7812397
+----------------------------
+2019-07-08 10:40:14.109060: epoch 121, step  56304, loss = 0.1945 (1832.3 examples/sec; 0.070 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 87.60
+Validation loss =  0.84911644
+----------------------------
+2019-07-08 10:40:53.721547: epoch 121, step  56695, loss = 0.1776 (1833.7 examples/sec; 0.070 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.59715915
+----------------------------
+2019-07-08 10:41:33.148401: epoch 122, step  57086, loss = 0.1767 (1825.6 examples/sec; 0.070 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.00
+Validation loss =  0.758994
+----------------------------
+2019-07-08 10:42:12.302369: epoch 123, step  57477, loss = 0.1702 (1564.7 examples/sec; 0.082 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 85.60
+Validation loss =  1.0564426
+----------------------------
+2019-07-08 10:42:49.014145: epoch 124, step  57868, loss = 0.1807 (1765.0 examples/sec; 0.073 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 89.60
+Validation loss =  0.6204453
+----------------------------
+2019-07-08 10:43:25.875789: epoch 125, step  58259, loss = 0.1707 (1503.6 examples/sec; 0.085 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 92.00
+Validation loss =  0.5658869
+----------------------------
+2019-07-08 10:44:04.522534: epoch 126, step  58650, loss = 0.1655 (1619.6 examples/sec; 0.079 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 92.80
+Validation loss =  0.5134709
+----------------------------
+2019-07-08 10:44:43.821788: epoch 126, step  59041, loss = 0.1698 (1574.4 examples/sec; 0.081 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 90.00
+Validation loss =  0.45496374
+----------------------------
+2019-07-08 10:45:23.801618: epoch 127, step  59432, loss = 0.1599 (1945.5 examples/sec; 0.066 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 87.60
+Validation loss =  0.6642756
+----------------------------
+2019-07-08 10:46:02.450165: epoch 128, step  59823, loss = 0.1643 (1743.9 examples/sec; 0.073 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 91.60
+Validation loss =  0.5038568
+----------------------------
+Learning rate decayed to  0.0010000000000000002
+2019-07-08 10:46:42.241645: epoch 129, step  60214, loss = 0.1566 (1771.4 examples/sec; 0.072 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.20
+Validation loss =  0.9883094
+----------------------------
+2019-07-08 10:47:20.365550: epoch 130, step  60605, loss = 0.1599 (1895.5 examples/sec; 0.068 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.40
+Validation loss =  0.7110164
+----------------------------
+2019-07-08 10:47:59.753338: epoch 131, step  60996, loss = 0.1620 (1809.4 examples/sec; 0.071 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.20
+Validation loss =  0.74590355
+----------------------------
+2019-07-08 10:48:37.701486: epoch 131, step  61387, loss = 0.1644 (1306.2 examples/sec; 0.098 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 92.40
+Validation loss =  0.49939448
+----------------------------
+2019-07-08 10:49:16.027367: epoch 132, step  61778, loss = 0.1604 (1342.3 examples/sec; 0.095 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.40
+Validation loss =  0.6916121
+----------------------------
+2019-07-08 10:49:57.556870: epoch 133, step  62169, loss = 0.1554 (1775.3 examples/sec; 0.072 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 86.40
+Validation loss =  0.853545
+----------------------------
+2019-07-08 10:50:37.993419: epoch 134, step  62560, loss = 0.1563 (1999.4 examples/sec; 0.064 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 93.20
+Validation loss =  0.56231457
+----------------------------
+2019-07-08 10:51:18.270248: epoch 135, step  62951, loss = 0.1573 (1850.5 examples/sec; 0.069 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.20
+Validation loss =  0.67466575
+----------------------------
+2019-07-08 10:51:56.995677: epoch 136, step  63342, loss = 0.1583 (1658.7 examples/sec; 0.077 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.00
+Validation loss =  0.7660636
+----------------------------
+2019-07-08 10:52:35.021273: epoch 136, step  63733, loss = 0.1679 (1798.0 examples/sec; 0.071 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 88.80
+Validation loss =  0.95300597
+----------------------------
+2019-07-08 10:53:14.463373: epoch 137, step  64124, loss = 0.1559 (2421.1 examples/sec; 0.053 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 91.20
+Validation loss =  0.64837164
+----------------------------
+2019-07-08 10:53:53.706664: epoch 138, step  64515, loss = 0.1588 (1831.5 examples/sec; 0.070 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.6356132
+----------------------------
+2019-07-08 10:54:31.790214: epoch 139, step  64906, loss = 0.1561 (1803.6 examples/sec; 0.071 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 92.00
+Validation loss =  0.46247327
+----------------------------
+2019-07-08 10:55:11.189713: epoch 140, step  65297, loss = 0.1561 (1635.8 examples/sec; 0.078 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.40
+Validation loss =  0.9531907
+----------------------------
+2019-07-08 10:55:51.899994: epoch 141, step  65688, loss = 0.1559 (1904.4 examples/sec; 0.067 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.57627505
+----------------------------
+2019-07-08 10:56:31.972368: epoch 141, step  66079, loss = 0.1687 (1652.9 examples/sec; 0.077 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 89.60
+Validation loss =  0.7395364
+----------------------------
+2019-07-08 10:57:10.053341: epoch 142, step  66470, loss = 0.1538 (1616.1 examples/sec; 0.079 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 91.20
+Validation loss =  0.6350659
+----------------------------
+2019-07-08 10:57:49.401514: epoch 143, step  66861, loss = 0.1544 (1797.2 examples/sec; 0.071 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.40
+Validation loss =  0.5569736
+----------------------------
+2019-07-08 10:58:27.732350: epoch 144, step  67252, loss = 0.1536 (1552.1 examples/sec; 0.082 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 92.40
+Validation loss =  0.5347259
+----------------------------
+2019-07-08 10:59:06.941410: epoch 145, step  67643, loss = 0.1526 (1896.9 examples/sec; 0.067 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.60
+Validation loss =  0.6823883
+----------------------------
+2019-07-08 10:59:44.998286: epoch 146, step  68034, loss = 0.1563 (1618.0 examples/sec; 0.079 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.4797627
+----------------------------
+2019-07-08 11:00:24.358578: epoch 146, step  68425, loss = 0.1519 (1790.2 examples/sec; 0.072 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 93.20
+Validation loss =  0.4507933
+----------------------------
+2019-07-08 11:01:03.755290: epoch 147, step  68816, loss = 0.1519 (2001.7 examples/sec; 0.064 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.00
+Validation loss =  0.9781097
+----------------------------
+2019-07-08 11:01:42.947766: epoch 148, step  69207, loss = 0.1523 (1647.4 examples/sec; 0.078 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.00
+Validation loss =  0.6392061
+----------------------------
+2019-07-08 11:02:22.729419: epoch 149, step  69598, loss = 0.1595 (1584.1 examples/sec; 0.081 sec/batch)
+Train accuracy = 99.21875
+Validation accuracy = 89.60
+Validation loss =  0.72715914
+----------------------------
+2019-07-08 11:03:01.497860: epoch 150, step  69989, loss = 0.1507 (1668.6 examples/sec; 0.077 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.60
+Validation loss =  0.70839334
+----------------------------
+2019-07-08 11:03:40.674923: epoch 151, step  70380, loss = 0.1528 (1847.9 examples/sec; 0.069 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 87.60
+Validation loss =  0.9687549
+----------------------------
+2019-07-08 11:04:20.142667: epoch 151, step  70771, loss = 0.1502 (1818.6 examples/sec; 0.070 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.00
+Validation loss =  0.6948588
+----------------------------
+2019-07-08 11:04:59.412221: epoch 152, step  71162, loss = 0.1513 (1815.4 examples/sec; 0.071 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.40
+Validation loss =  0.75789565
+----------------------------
+2019-07-08 11:05:37.979407: epoch 153, step  71553, loss = 0.1516 (1602.4 examples/sec; 0.080 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 88.80
+Validation loss =  0.786199
+----------------------------
+2019-07-08 11:06:16.758824: epoch 154, step  71944, loss = 0.1513 (1583.1 examples/sec; 0.081 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 87.60
+Validation loss =  0.84324664
+----------------------------
+2019-07-08 11:06:55.917559: epoch 155, step  72335, loss = 0.1502 (1959.4 examples/sec; 0.065 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 92.00
+Validation loss =  0.57096803
+----------------------------
+2019-07-08 11:07:35.417777: epoch 156, step  72726, loss = 0.1523 (1914.7 examples/sec; 0.067 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 89.60
+Validation loss =  0.6722991
+----------------------------
+2019-07-08 11:08:15.400470: epoch 156, step  73117, loss = 0.1537 (1510.5 examples/sec; 0.085 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 91.60
+Validation loss =  0.61612946
+----------------------------
+2019-07-08 11:08:53.832607: epoch 157, step  73508, loss = 0.1502 (1533.5 examples/sec; 0.083 sec/batch)
+Train accuracy = 100.00000
+Validation accuracy = 90.80
+Validation loss =  0.55283356
+----------------------------
